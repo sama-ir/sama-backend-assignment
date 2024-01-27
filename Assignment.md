@@ -1,6 +1,6 @@
 ---
 author: M Mokhtari
-title: Django Backend Developer
+title: Django Backend Assignment Project
 ---
 
 # Assignment: Sama Django Backend Assignment Project
