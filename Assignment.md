@@ -19,9 +19,10 @@ title: Django Backend Assignment Project
     financial application. The system should allow users to perform
     basic operations such as creating wallets, transferring funds
     between wallets, and viewing transaction history.
--   The project does not need to have any authentication. Use sqlite as
-    the database. Try to write at least 3 tests that showcases your
-    understanding of a test framework and testing in general.
+-   The project does not need to have any authentication or
+    authorization mechanism. Use sqlite as the database. Try to write at
+    least 3 tests that showcases your understanding of a test framework
+    and testing in general.
 
 ## Requirements:
 
