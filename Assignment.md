@@ -1,88 +1,93 @@
----
-author: M Mokhtari
-title: Django Backend Assignment Project
----
+
+# Table of Contents
+
+1.  [Objective](#orga8390c8)
+2.  [Scenario](#org6a5ba99)
+3.  [Requirements](#org8b0b9d4)
+    1.  [Model/Database Design](#orgd1d68cd)
+    2.  [Testing](#orgce79eaf)
+    3.  [Database](#orge02bec1)
+    4.  [Source Version Control](#orgaa89909)
+4.  [Submission](#orgcf38993)
+5.  [Note](#orgf6107a1)
+6.  [Evaluation Criteria](#org4676356)
 
 # Assignment: Sama Django Backend Assignment Project
 
-## Objective:
+## Objective
 
--   The purpose of this assignment is to assess your proficiency in
-    various aspects of Django/Python Backend development. You will be
-    working on a payment system, specifically focusing on model/database
-    design, Django and DRF efficiency, design patterns and SOLID
-    principles, overall code quality, and Git usage efficiency.
+Demonstrate your proficiency in Django/Python backend development by building a simplified wallet system. The system should allow users to create wallets, transfer funds between wallets, and view transaction history, all through REST APIs, while showcasing efficient database design, adherence to SOLID principles, and good code quality.
 
-## Scenario:
 
--   You are tasked with developing a simplified payment system for a
-    financial application. The system should allow users to perform
-    basic operations such as creating wallets, transferring funds
-    between wallets, and viewing transaction history.
--   The project does not need to have any authentication or
-    authorization mechanism. Use sqlite as the database. Try to write at
-    least 3 tests that showcases your understanding of a test framework
-    and testing in general.
+## Scenario
 
-## Requirements:
+You are tasked with developing a simple wallet system for a financial application. The system should enable users to perform basic operations through REST API calls, such as:
 
-### Model/Database Design:
+-   Creating wallets
+-   Transferring funds between wallets
+-   Viewing transaction history
 
--   Design Django models for User, Wallet, and Transaction.
--   A User should be able to have multiple wallets.
--   Ensure that the database design supports scalability.
--   Implement appropriate database indexes and relationships.
 
-### Django and DRF Efficiency:
+## Requirements
 
--   Create Django Rest Framework (DRF) views and serializers for wallet
-    creation, fund transfer, and getting transaction history.
--   Implement efficient querysets to retrieve data without unnecessary
-    overhead.
--   Utilize Django Rest Framework (DRF) to expose API endpoints for the
-    required operations.
--   Ensure atomic transactions for fund transfers to maintain data
-    consistency.
+### Model/Database Design
 
-### Design Patterns and Overall code quality:
+Design required django models ensuring:
 
--   Write clean and well-structured code following python best practices
-    and Implement design patterns where applicable.
--   Apply SOLID principles to enhance code maintainability and
-    extensibility.
--   Write clear and concise comments/documentation for your code
-    whenever necessary, but avoid too much comments.
--   Implement error handling for potential edge cases and provide
-    informative error messages.
--   Include appropriate comments to explain complex logic or design
-    decisions.
+-   A User can have multiple wallets
+-   Daily transfers between different users are limited (Total count and total value of transfers)
 
-### Git Usage Efficiency:
+Implement the following transaction types:
 
--   Use Git for version control throughout the development process.
--   Make regular commits with clear and descriptive commit messages.
--   Provide a concise README file with instructions on how to set up and
-    run the project locally.
+-   Deposits
+-   Withdrawals
+-   Refunds
 
-## Submission:
+Include (at least) the following transaction statuses:
 
--   Share a link to your Git repository containing the project.
--   Include a brief README.md with setup instructions and any additional
-    information you deem necessary.
+-   Pending
+-   Completed
+-   Failed
 
-## Note:
 
--   The assignment is expected to take not more than a day to complete
-    (hopefully less than that), If it takes more time or you are facing
-    issues, feel free to contact us to discus the matter.
--   Focus on demonstrating your proficiency in Django/Python Backend
-    development, efficient database design, code quality, design
-    patterns, SOLID principles, tests, and Git usage.
--   Feel free to make assumptions where necessary and document them in
-    your code or README.
+### Testing
 
-## Evaluation Criteria:
+Write at least 3 tests that demonstrate your understanding of a test framework and testing principles.
 
--   The code will be evaluated based on the completeness of the
-    implementation, adherence to best practices, code quality, and the
-    efficiency of the solution in meeting the specified requirements.
+
+### Database
+
+Use SQLite as the database for this project.
+
+
+### Source Version Control
+
+Use git for version control throughout the development process.
+
+
+## Submission
+
+Share a link to your git repository containing the project, along with a very brief README.md file that includes:
+
+-   Setup instructions
+-   Any additional information you deem necessary
+
+
+## Note
+
+This assignment should take no more than a day to complete (hopefully less). If you&rsquo;re facing issues or need more time, feel free to contact us to discuss.
+
+Focus on demonstrating your proficiency in Django/Python backend development, efficient database design, code quality, design patterns, SOLID principles, tests, and git usage.
+
+Make assumptions where necessary and document them in your code or README.
+
+
+## Evaluation Criteria
+
+The code will be evaluated based on:
+
+-   Completeness of the implementation
+-   Adherence to best practices
+-   Code quality
+-   Efficiency of the solution in meeting the specified requirements
+
