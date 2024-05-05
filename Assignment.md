@@ -1,16 +1,16 @@
 
 # Table of Contents
 
-1.  [Objective](#orga8390c8)
-2.  [Scenario](#org6a5ba99)
-3.  [Requirements](#org8b0b9d4)
-    1.  [Model/Database Design](#orgd1d68cd)
-    2.  [Testing](#orgce79eaf)
-    3.  [Database](#orge02bec1)
-    4.  [Source Version Control](#orgaa89909)
-4.  [Submission](#orgcf38993)
-5.  [Note](#orgf6107a1)
-6.  [Evaluation Criteria](#org4676356)
+1.  [Objective](#Objective)
+2.  [Scenario](#Scenario)
+3.  [Requirements](#Requirements)
+    1.  [Model/Database Design](#Model-Database-Design)
+    2.  [Testing](#Testing)
+    3.  [Database](#Database)
+    4.  [Source Version Control](#Source-Version-Control)
+4.  [Submission](#Submission)
+5.  [Note](#Note)
+6.  [Evaluation Criteria](#Evaluation-Criteria)
 
 # Assignment: Sama Django Backend Assignment Project
 
